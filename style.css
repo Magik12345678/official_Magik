@@ -1,0 +1,63 @@
+.main {align-items: center;
+    color: white;
+
+    margin: 0;
+    padding: 0;
+    background-size: cover ;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+body {
+    background-image: url(https://phonoteka.org/uploads/posts/2021-06/1624646329_18-phonoteka_org-p-anime-oboi-nochnoi-gorod-krasivo-19.jpg); 
+}
+p {
+    width: 60%;
+}
+.start {height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    flex-direction: row;
+}
+.bodystart{background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://phonoteka.org/uploads/posts/2022-01/1643149584_10-phonoteka-org-p-zadnii-fon-dlya-risunka-11.jpg);
+    
+}
+a { font-size: 40px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+.card1, .card2, .card3 {
+   align-items: center;
+}
+.zagolovok { font-size: medium;
+    justify-content: center;
+    position:absolute;
+    top: 10%;
+    left: 33%;
+    flex-direction: column;
+    color:white;
+    font-size: 50px;
+
+}
+.podval{
+    justify-content: center;
+    display: flex;
+
+}
+img{
+    border-radius: 15px;
+}
+iframe {
+    border-radius: 20px;
+}
+button{
+    flex-direction: column;
+    justify-self: center;
+}
